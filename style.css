@@ -1,0 +1,165 @@
+@font-face
+{
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-VariableFont_wght.ttf),
+    url(fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+body
+{
+    background-color: white;
+    font-family: 'Raleway';
+    color: black;
+}
+
+.bloc_page
+{
+    width: 100%;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h2
+{
+    font-size: 26px;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.hebergements_a_marseille
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergements_a_marseille a
+{
+    flex-basis: 32%;
+}
+
+.bloc_hebergement
+{
+    width: 70%;
+    border: #F2F2F2 solid;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+.bloc_populaire
+{
+    width: 30%;
+    border: #F2F2F2 solid;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.section_1
+{
+    display: flex;
+}
+
+.image_chambre
+{
+    width: 266px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.image_chambre_2
+{
+    width: 120px;
+    height: 130px;
+    object-fit: cover;
+    float: left;
+    border-radius: 15px 0 0 15px;
+}
+
+.etoile
+{
+    color:  #0065FC;
+}
+
+.deco
+{
+    color: black;
+    text-decoration: none;
+}
+
+.fig
+{
+    border: white solid;
+    border-radius: 15px;
+    background-color: white;
+    height: 130px;
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.titre_pop
+{
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.gras
+{
+    font-weight: bold;
+}
+
+.hebergement_h3
+{
+    line-height: 0%;
+}
+
+.hebergement_h4
+{
+    font-weight: normal;
+    line-height: 0%;
+}
+
+.invi
+{
+    color: #F2F2F2;
+}
+
+.fig_1
+{
+    border: white solid;
+    border-radius: 15px;
+    background-color: white;
+    width: 266px;
+}
+
+.min
+{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.text_1
+{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
