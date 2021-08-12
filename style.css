@@ -28,19 +28,15 @@ h2
 {
     font-size: 26px;
     font-weight: bolder;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 12px;
 }
 
 .hebergements_a_marseille
 {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.hebergements_a_marseille a
-{
-    flex-basis: 32%;
 }
 
 .bloc_hebergement
@@ -180,17 +176,20 @@ h2
     color: black;
     padding-left: 50px;
     padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.sous_titre
-{
-    font-size: small;
+    width: 100%;
 }
 
 .info
 {
     color: #0065FC;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    text-align: center;
+    font-size: small;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #DCDCDC;
 }
 
 .text_info
@@ -203,3 +202,152 @@ h2
     padding-top: 15px;
     padding-bottom: 30px;
 }
+
+.bloc_logo
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauche
+{
+    color: black;
+    text-decoration: none;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.gauche:hover
+{
+    border-top: solid #0065FC;
+    padding-top: 51px;
+    color: #0065FC;
+}
+
+.milieu
+{
+    color: black;
+    text-decoration: none;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.milieu:hover
+{
+    border-top: solid #0065FC;
+    padding-top: 51px;
+    color: #0065FC;
+}
+
+.droite
+{
+    color: #0065FC;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-right: 30px;
+}
+
+.droite:hover
+{
+    border-top: solid #0065FC;
+    padding-top: 51px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-inline-start: 0%;
+    display: flex;
+}
+
+.recherche
+{
+    display: flex;
+    padding-top: 20px;
+}
+
+input
+{
+    font-weight: bolder;
+    font-size: medium;
+    padding-left: 20px;
+    border: none;
+    border: 1px solid #F2F2F2;
+    padding: 10px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+.logo_loca
+{
+    border: 10px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+.bouton_recherche
+{
+    text-decoration: none;
+    border: solid #0065FC;
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.bloc_filtre
+{
+    font-weight: bolder;
+    display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.ul_filtre
+{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo_filtre
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.mot 
+{
+    margin-right: 30px;
+    color: black;
+    border: solid #F2F2F2;
+    border-left: white;
+    border-radius: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.text_filtre
+{
+    padding-right: 40px;
+}
+
