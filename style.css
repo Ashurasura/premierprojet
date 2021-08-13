@@ -14,6 +14,11 @@ body
 
 .bloc_page
 {
+    width: 100%;
+}
+
+.largeur_spe
+{
     width: 95%;
     margin: auto;
 }
@@ -285,8 +290,7 @@ input:focus
     font-weight: bold;
     color: black;
     padding-left: 50px;
-    padding-top: 15px;
-    padding-bottom: 25px;
+    padding-top: 35px;
 }
 
 .bloc_populaire
@@ -326,13 +330,14 @@ input:focus
     background-color: white;
     height: 80%;
     display: flex;
+    max-height: 80%;
 }
 
 .image_chambre_2
 {
     object-fit: cover;
     width: 30%;
-    height: 145px;
+    height: 160px;
     max-width: 100%;
     border-radius: 15px 0 0 15px;
 }
@@ -357,4 +362,237 @@ input:focus
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 35px;
+}
+
+.bloc_activite
+{
+    width: 100%;
+}
+
+.activites_a_marseille
+{
+    width: 100%;
+}
+
+h2
+{
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+.bloc_image_activite
+{
+    display: flex;
+}
+
+.pile_1
+{
+    border: solid #F2F2F2;
+    border-radius: 20px;
+    box-shadow: #F2F2F2 0px 2px;
+    display: block;
+    justify-content: left;
+    width: 25%;
+}
+
+.lien_port
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18.72px;
+    font-weight: bolder;
+}
+
+.vieux_port
+{
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+    border-radius: 15px 15px 0 0;
+}
+
+.nom_lieu
+{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pile_2
+{
+    display: block;
+    padding-left: 50px;
+}
+
+.lien_pomegues
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18.72px;
+    font-weight: bolder;
+}
+
+.bis_pile_2
+{
+    border: solid #F2F2F2;
+    border-radius: 20px;
+    box-shadow: #F2F2F2 0px 2px;
+    display: block;
+    justify-content: left;
+    width: 90%;
+    margin-bottom: 50px;
+}
+.fort_pomegues
+{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+
+.lien_frioul
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18.72px;
+    font-weight: bolder;
+}
+
+.bis_2_pile_2
+{
+    border: solid #F2F2F2;
+    border-radius: 20px;
+    box-shadow: #F2F2F2 0px 2px;
+    display: block;
+    justify-content: left;
+    width: 90%;
+}
+
+.iles
+{
+    object-fit: cover;
+    width: 100%;
+    height: 189px;
+    border-radius: 15px 15px 0 0;
+}
+
+.pile_3
+{
+    border: solid #F2F2F2;
+    border-radius: 20px;
+    box-shadow: #F2F2F2 0px 2px;
+    display: block;
+    justify-content: left;
+    width: 25%;
+    margin-right: 50px;
+}
+
+.lien_calanque
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18.72px;
+    font-weight: bolder;
+}
+
+.parc
+{
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+    border-radius: 15px 15px 0 0;
+}
+
+.pile_4
+{
+    display: block;
+}
+
+.lien_garde
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18.72px;
+    font-weight: bolder;
+}
+
+.bis_pile_4
+{
+    border: solid #F2F2F2;
+    border-radius: 20px;
+    box-shadow: #F2F2F2 0px 2px;
+    display: block;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.notre_dame
+{
+    object-fit: cover;
+    width: 100%;
+    height: 189px;
+    border-radius: 15px 15px 0 0;
+}
+
+.lien_longchamp
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18.72px;
+    font-weight: bolder;
+}
+
+.bis_2_pile_4
+{
+    border: solid #F2F2F2;
+    border-radius: 20px;
+    box-shadow: #F2F2F2 0px 2px;
+    display: block;
+    justify-content: left;
+    width: 100%;
+}
+
+.longchamp
+{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+
+footer
+{
+    margin-top: 60px;
+    border: solid #F2F2F2;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+#propos
+{
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+h5
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.end_1, .end_2, .end_3
+{
+    list-style-type: none;
+    display: block;
+    margin-top: 10px;
+    padding-right: 400px;
 }
