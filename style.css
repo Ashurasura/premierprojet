@@ -10,6 +10,14 @@ body
     background-color: white;
     font-family: 'Raleway';
     color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenant
+{
+    background-color: chartreuse;
 }
 
 .bloc_page
@@ -48,7 +56,7 @@ nav ul
 .gauche:hover
 {
     border-top: solid #0065FC;
-    padding-top: 51px;
+    padding-top: 43px;
     color: #0065FC;
 }
 
@@ -63,7 +71,7 @@ nav ul
 .milieu:hover
 {
     border-top: solid #0065FC;
-    padding-top: 51px;
+    padding-top: 43px;
     color: #0065FC;
 }
 
@@ -79,7 +87,7 @@ nav ul
 .droite:hover
 {
     border-top: solid #0065FC;
-    padding-top: 51px;
+    padding-top: 43px;
 }
 
 h1
@@ -168,6 +176,7 @@ input:focus
     display: flex;
     align-items: center;
     padding-right: 15px;
+    margin-top: 2.5px;
 }
 
 .mot:hover
@@ -279,6 +288,12 @@ input:focus
     color:  #0065FC;
 }
 
+.etoile_2
+{
+    color: #0065FC;
+    margin-top: 15px;
+}
+
 .invi
 {
     color: #F2F2F2;
@@ -388,9 +403,9 @@ h2
 
 .pile_1
 {
-    border: solid #F2F2F2;
+    border: solid #ffffff;
     border-radius: 20px;
-    box-shadow: #F2F2F2 0px 2px;
+    box-shadow: #000000 0 0.5px;
     display: block;
     justify-content: left;
     width: 25%;
@@ -435,9 +450,9 @@ h2
 
 .bis_pile_2
 {
-    border: solid #F2F2F2;
+    border: solid #ffffff;
     border-radius: 20px;
-    box-shadow: #F2F2F2 0px 2px;
+    box-shadow: #000000 0 0.5px;
     display: block;
     justify-content: left;
     width: 90%;
@@ -461,9 +476,9 @@ h2
 
 .bis_2_pile_2
 {
-    border: solid #F2F2F2;
+    border: solid #ffffff;
     border-radius: 20px;
-    box-shadow: #F2F2F2 0px 2px;
+    box-shadow: #000000 0 0.5px;
     display: block;
     justify-content: left;
     width: 90%;
@@ -479,9 +494,9 @@ h2
 
 .pile_3
 {
-    border: solid #F2F2F2;
+    border: solid #ffffff;
     border-radius: 20px;
-    box-shadow: #F2F2F2 0px 2px;
+    box-shadow: #000000 0 0.5px;
     display: block;
     justify-content: left;
     width: 25%;
@@ -519,9 +534,9 @@ h2
 
 .bis_pile_4
 {
-    border: solid #F2F2F2;
+    border: solid #ffffff;
     border-radius: 20px;
-    box-shadow: #F2F2F2 0px 2px;
+    box-shadow: #000000 0 0.5px;
     display: block;
     justify-content: left;
     width: 100%;
@@ -545,9 +560,9 @@ h2
 
 .bis_2_pile_4
 {
-    border: solid #F2F2F2;
+    border: solid #ffffff;
     border-radius: 20px;
-    box-shadow: #F2F2F2 0px 2px;
+    box-shadow: #000000 0 0.5px;
     display: block;
     justify-content: left;
     width: 100%;
@@ -561,21 +576,17 @@ h2
     border-radius: 15px 15px 0 0;
 }
 
-footer
+.bloc_footer
 {
-    margin-top: 60px;
-    border: solid #F2F2F2;
     background-color: #F2F2F2;
-    width: 100%;
-    height: 100%;
-    margin-top: 50px;
     display: flex;
+    margin-top: 50px;
 }
 
 #propos
 {
     padding-left: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 h5
 {
@@ -595,4 +606,43 @@ a
     display: block;
     margin-top: 10px;
     padding-right: 400px;
+}
+
+@media all and (min-width:668px)and (max-width:1450px)
+{
+
+}
+
+@media all and (max-width:667px)
+{
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .section_1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .bloc_hebergement
+    {
+        width: 100%;
+    }
+    .heberh
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hebergements_a_marseille
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
