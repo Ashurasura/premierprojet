@@ -17,7 +17,7 @@ body
 
 #contenant
 {
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
 }
 
 .bloc_page
@@ -41,7 +41,6 @@ body
 nav ul
 {
     list-style-type: none;
-    padding-inline-start: 0%;
     display: flex;
 }
 
@@ -135,10 +134,15 @@ input:focus
     padding: 8px;
 }
 
+.bouton_recherche2
+{
+    display: none;
+}
+
 .bloc_filtre
 {
     font-weight: bolder;
-    display: inline-flex;
+    display: flex;
     padding-top: 30px;
     padding-bottom: 15px;
 }
@@ -399,13 +403,14 @@ h2
 .bloc_image_activite
 {
     display: flex;
+    width: 100%;
 }
 
 .pile_1
 {
-    border: solid #ffffff;
+    border: solid #ffffff 0.1%;
     border-radius: 20px;
-    box-shadow: #000000 0 0.5px;
+    box-shadow: #cecece 0 0 5px 0;
     display: block;
     justify-content: left;
     width: 25%;
@@ -438,6 +443,7 @@ h2
 {
     display: block;
     padding-left: 50px;
+    width: 28%;
 }
 
 .lien_pomegues
@@ -450,13 +456,13 @@ h2
 
 .bis_pile_2
 {
-    border: solid #ffffff;
+    border: solid #ffffff 0.1%;
     border-radius: 20px;
-    box-shadow: #000000 0 0.5px;
+    box-shadow: #cecece 0 0 5px 0;
     display: block;
     justify-content: left;
     width: 90%;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 .fort_pomegues
 {
@@ -476,9 +482,9 @@ h2
 
 .bis_2_pile_2
 {
-    border: solid #ffffff;
+    border: solid #ffffff 0.1%;
     border-radius: 20px;
-    box-shadow: #000000 0 0.5px;
+    box-shadow: #cecece 0 0 5px 0;
     display: block;
     justify-content: left;
     width: 90%;
@@ -488,15 +494,15 @@ h2
 {
     object-fit: cover;
     width: 100%;
-    height: 189px;
+    height: 190px;
     border-radius: 15px 15px 0 0;
 }
 
 .pile_3
 {
-    border: solid #ffffff;
+    border: solid #ffffff 0.1%;
     border-radius: 20px;
-    box-shadow: #000000 0 0.5px;
+    box-shadow: #cecece 0 0 5px 0;
     display: block;
     justify-content: left;
     width: 25%;
@@ -522,6 +528,7 @@ h2
 .pile_4
 {
     display: block;
+    width: 25%;
 }
 
 .lien_garde
@@ -534,19 +541,19 @@ h2
 
 .bis_pile_4
 {
-    border: solid #ffffff;
+    border: solid #ffffff 0.1%;
     border-radius: 20px;
-    box-shadow: #000000 0 0.5px;
+    box-shadow: #cecece 0 0 5px 0;
     display: block;
     justify-content: left;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 .notre_dame
 {
     object-fit: cover;
     width: 100%;
-    height: 189px;
+    height: 220px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -560,9 +567,9 @@ h2
 
 .bis_2_pile_4
 {
-    border: solid #ffffff;
+    border: solid #ffffff 0.1%;
     border-radius: 20px;
-    box-shadow: #000000 0 0.5px;
+    box-shadow: #cecece 0 0 5px 0;
     display: block;
     justify-content: left;
     width: 100%;
@@ -572,7 +579,7 @@ h2
 {
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height: 220px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -615,34 +622,272 @@ a
 
 @media all and (max-width:667px)
 {
-    header
+
+    #contenant
+    {
+        width: 100%;
+    }
+
+    .bloc_page
+    {
+        width: 100%;
+    }
+
+    .bloc_logo
     {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
     }
+
+    .logo
+    {
+        padding-left: 10px;
+    }
+
+    nav ul
+    {
+        padding-left: 25px;
+    }
+    .gauche
+    {
+        padding-top: 0px;
+        border-bottom: #F2F2F2 solid;
+        width: 50%;
+        padding-bottom: 10px;
+        position: absolute;
+        left: 0px;
+
+    }
+
+    .gauche:hover
+    {
+        border-top: none;
+        border-bottom: solid #0065FC;
+        padding-top: 0px;
+        color: #0065FC;
+    }
+
+    .gauche1
+    {
+        padding-left: 20px;
+    }
+
+
+    .milieu
+    {
+        padding-top: 0px;
+        border-bottom: #F2F2F2 solid;
+        width: 50%;
+        padding-bottom: 10px;
+        position: absolute;
+        right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .milieu:hover
+    {
+        border-top: none;
+        border-bottom: solid #0065FC;
+        padding-top: 0px;
+        color: #0065FC;
+    }
+
+    .milieu1
+    {
+        padding-left: 50px;
+    }
+
+    .droite
+    {
+        position: absolute;
+        top: 45px;
+        right: 0px;
+    }
+
+    .droite:hover
+    {
+        border-top: none;
+        padding-top: 0px;
+    }
+
+    h1
+    {
+        padding-left: 10px;
+        font-size: 23px;
+        padding-top: 25px;
+    }
+
+    .enplein
+    {
+        padding-left: 10px;
+    }
+
+    .recherche
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bouton_recherche
+    {
+        display: none;
+    }
+
+    .bouton_recherche2
+    {
+        display: flex;
+        text-decoration: none;
+        border: solid #0065FC;
+        background-color: #0065FC;
+        border-radius: 0 10px 10px 0;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .logo_loca
+    {
+        border: solid #F2F2F2;
+        background-color: #F2F2F2;
+        border-radius: 10px 0 0 10px;
+        display: flex;
+        text-decoration: none;
+        border-radius: 10px 0 0 10px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .text_filtre
+    {
+        position: absolute;
+        top: 320px;
+        padding-left: 15px;
+    }
+
+    .bloc_filtre
+    {
+        padding-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mot
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .text_info
+    {
+        position: absolute;
+        padding-left: 10px;
+    }
+
     .section_1
     {
         display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bloc_populaire
+    {
+        display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        border: none;
+        border-radius: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .fig
+    {
+        margin-left: 15px;
+        margin-right: 15px;
+        border: solid white 5px;
     }
 
     .bloc_hebergement
     {
+        border: none;
+        border-radius: 0%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 100%;
     }
-    .heberh
+
+    .deco
     {
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
-    .hebergements_a_marseille
+    .bloc_image_activite
     {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        width: 100%;
+    }
+
+    .vieux_port
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .pile_1
+    {
+        width: 100%;
+    }
+
+    .fort_pomegues
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .pile_2
+    {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .bloc_footer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #propos
+    {
+        padding-left: 50px;
+    }
+
+    .end_1, .end_2, .end_3
+    {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    #hebergements
+    {
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    #assistance
+    {
+        padding-left: 50px;
+        padding-bottom: 20px;
     }
 }
