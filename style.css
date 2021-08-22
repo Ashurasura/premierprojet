@@ -307,6 +307,7 @@ input:focus
 {
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
     color: black;
     padding-left: 50px;
     padding-top: 35px;
@@ -618,6 +619,15 @@ a
 @media all and (min-width:668px)and (max-width:1450px)
 {
 
+    body 
+    {
+        width: 100%;
+    }
+    
+    .largeur_spe
+    {
+        width: 100%;
+    }
 }
 
 @media all and (max-width:667px)
@@ -799,14 +809,33 @@ a
         border: none;
         border-radius: 0px;
         width: 100%;
-        margin-left: 0px;
+        margin-left: -9px;
+        padding-right: 18px;
+    }
+
+    .titre_pop
+    {
+        padding-right: 0px;
+        padding-left: 15px;
     }
 
     .fig
     {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         border: solid white 5px;
+    }
+
+    .image_chambre_2
+    {
+        width: 40%;
+    }
+
+    .deco_2
+    {
+        margin-left: 18px;
     }
 
     .bloc_hebergement
@@ -820,6 +849,24 @@ a
         width: 100%;
     }
 
+    .heberh
+    {
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .fig_1
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: solid #ffffff 0.1px;
+        border-radius: 20px;
+        box-shadow: #cecece 0 0 5px 0;
+    }
+
     .deco
     {
         width: 100%;
@@ -827,11 +874,23 @@ a
         justify-content: center;
     }
 
+    .plus
+    {
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+
     .bloc_image_activite
     {
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 100%;
+    }
+
+    h2 
+    {
+        padding-left: 5px;
     }
 
     .vieux_port
@@ -842,9 +901,21 @@ a
         border-radius: 15px 15px 0 0;
     }
 
+    .nom_lieu
+    {
+        width: 310px;
+    }
+
     .pile_1
     {
         width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .pile_2
+    {
+        width: 100%;
+        padding-left: 0px;
     }
 
     .fort_pomegues
@@ -855,10 +926,72 @@ a
         border-radius: 15px 15px 0 0;
     }
 
-    .pile_2
+    .bis_pile_2
     {
         width: 100%;
-        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+
+    .iles
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bis_2_pile_2
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .pile_3
+    {
+        width: 100%; 
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+
+    .parc
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .pile_4
+    {
+        width: 100%;
+    }
+
+    .bis_pile_4
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .notre_dame
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bis_2_pile_4
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .longchamp
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
     }
 
     .bloc_footer
@@ -866,6 +999,7 @@ a
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-top: 25px;
     }
 
     #propos
