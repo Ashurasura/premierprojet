@@ -608,12 +608,12 @@ a
     color: black;
 }
 
-.end_1, .end_2, .end_3
+.end_1, .end_2
 {
     list-style-type: none;
     display: block;
     margin-top: 10px;
-    padding-right: 400px;
+    padding-right: 300px;
 }
 
 @media all and (min-width:668px)and (max-width:1450px)
@@ -623,10 +623,28 @@ a
     {
         width: 100%;
     }
-    
+
     .largeur_spe
     {
-        width: 100%;
+        width: 95%;
+    }
+
+    .bloc_footer
+    {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    #propos
+    {
+        padding-left: 0px;
+    }
+
+    .end_1, .end_2, .end_3
+    {
+        padding-right: 0px;
     }
 }
 
