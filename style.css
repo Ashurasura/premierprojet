@@ -348,9 +348,7 @@ input:focus
     border: white solid;
     border-radius: 15px;
     background-color: white;
-    height: 80%;
     display: flex;
-    max-height: 80%;
 }
 
 .image_chambre_2
@@ -409,7 +407,7 @@ h2
 
 .pile_1
 {
-    border: solid #ffffff 0.1%;
+    border: solid #ffffff none;
     border-radius: 20px;
     box-shadow: #cecece 0 0 5px 0;
     display: block;
@@ -457,7 +455,7 @@ h2
 
 .bis_pile_2
 {
-    border: solid #ffffff 0.1%;
+    border: solid #ffffff none;
     border-radius: 20px;
     box-shadow: #cecece 0 0 5px 0;
     display: block;
@@ -483,7 +481,7 @@ h2
 
 .bis_2_pile_2
 {
-    border: solid #ffffff 0.1%;
+    border: solid #ffffff none;
     border-radius: 20px;
     box-shadow: #cecece 0 0 5px 0;
     display: block;
@@ -501,7 +499,7 @@ h2
 
 .pile_3
 {
-    border: solid #ffffff 0.1%;
+    border: solid #ffffff none;
     border-radius: 20px;
     box-shadow: #cecece 0 0 5px 0;
     display: block;
@@ -542,7 +540,7 @@ h2
 
 .bis_pile_4
 {
-    border: solid #ffffff 0.1%;
+    border: solid #ffffff none;
     border-radius: 20px;
     box-shadow: #cecece 0 0 5px 0;
     display: block;
@@ -568,7 +566,7 @@ h2
 
 .bis_2_pile_4
 {
-    border: solid #ffffff 0.1%;
+    border: solid #ffffff none;
     border-radius: 20px;
     box-shadow: #cecece 0 0 5px 0;
     display: block;
@@ -632,9 +630,7 @@ a
     .bloc_footer
     {
         display: flex;
-        justify-content: space-between;
-        padding-right: 100px;
-        padding-left: 100px;
+        flex-direction: column;
     }
 
     #propos
@@ -642,9 +638,317 @@ a
         padding-left: 0px;
     }
 
-    .end_1, .end_2, .end_3
+    #contenant
+    {
+        width: 100%;
+    }
+
+    .bloc_page
+    {
+        width: 100%;
+    }
+
+    .bloc_logo
+    {
+        display: flex;
+    }
+
+    .logo
+    {
+        padding-left: 10px;
+    }
+
+    nav ul
+    {
+        padding-left: 25px;
+    }
+
+    .bloc_filtre
+    {
+        flex-wrap: wrap;
+    }
+    
+    h1
+    {
+        padding-left: 10px;
+        font-size: 23px;
+        padding-top: 25px;
+    }
+
+    .enplein
+    {
+        padding-left: 10px;
+    }
+
+    .logo_loca
+    {
+        border: solid #F2F2F2;
+        background-color: #F2F2F2;
+        border-radius: 10px 0 0 10px;
+        display: flex;
+        text-decoration: none;
+        border-radius: 10px 0 0 10px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .text_info
+    {
+        position: absolute;
+        padding-left: 10px;
+    }
+
+    .bloc_populaire
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 100%;
+        margin-left: -9px;
+        padding-right: 18px;
+    }
+
+    .titre_pop
     {
         padding-right: 0px;
+        padding-left: 15px;
+    }
+
+    .fig
+    {
+        display: block;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 150px;
+        border: white solid;
+        border-radius: 15px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .image_chambre_2
+    {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .saut
+    {
+        display: none;
+    }
+
+    .text
+    {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .min
+    {
+        line-height: 0%;
+        padding-bottom: 5px;
+    }
+
+    .deco_2
+    {
+        margin-left: 18px;
+        max-height: 90%;
+        height: 100%;
+    }
+
+    .bloc_hebergement
+    {
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .heberh
+    {
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .fig_1
+    {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .deco
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .plus
+    {
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+
+    .bloc_activite
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .activites_a_marseille
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloc_image_activite
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    h2 
+    {
+        padding-left: 5px;
+    }
+
+    .vieux_port
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .nom_lieu
+    {
+        width: 310px;
+    }
+
+    .pile_1
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .pile_2
+    {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .fort_pomegues
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bis_pile_2
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .iles
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bis_2_pile_2
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .pile_3
+    {
+        width: 100%; 
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+
+    .parc
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .pile_4
+    {
+        width: 100%;
+    }
+
+    .bis_pile_4
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .notre_dame
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bis_2_pile_4
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .longchamp
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bloc_footer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    #propos
+    {
+        padding-left: 50px;
+    }
+
+    .end_1, .end_2, .end_3
+    {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    #hebergements
+    {
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    #assistance
+    {
+        padding-left: 50px;
+        padding-bottom: 20px;
     }
 }
 
